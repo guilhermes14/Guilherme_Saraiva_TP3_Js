@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <title>Questão 1</title>
+    </head>
+    <body>
+
+        <h1>Questão 1</h1>
+
+        <div class="calcularNum">
+            <label for="numeroMin">Valor Mínimo: </label>
+            <input type="number" id="numeroMin">
+            <br>
+            <label for="numeroMax">Valor Máximo: </label>
+            <input type="number" id="numeroMax">
+            <br>
+            <button type="button" id="calcularBtn" onclick="calcularMinMax()">Calcular</button>
+        </div>
+
+        <div class="respostas">
+            <h3>Resposta:</h3>
+            <div id="respostaCalcular"></div>
+            <br>
+            <div id="respostaCalcular2"></div>
+        </div>
+
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
